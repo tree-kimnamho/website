@@ -6,7 +6,7 @@
   "compilationOptions": {
     "defines": [
       "TRACE",
-      "DEBUG",
+      "RELEASE",
       "NETCOREAPP",
       "NETCOREAPP3_0"
     ],
@@ -14,7 +14,7 @@
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
-    "optimize": false,
+    "optimize": true,
     "keyFile": "",
     "emitEntryPoint": true,
     "xmlDoc": false,
@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "WebApplication8/1.0.0": {
+      "WebApplication9/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
@@ -308,10 +308,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "WebApplication8.dll": {}
+          "WebApplication9.dll": {}
         },
         "compile": {
-          "WebApplication8.dll": {}
+          "WebApplication9.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -2009,7 +2009,7 @@
     }
   },
   "libraries": {
-    "WebApplication8/1.0.0": {
+    "WebApplication9/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
